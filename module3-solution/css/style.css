@@ -1,0 +1,134 @@
+body {
+    font-size: 16px;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: sandybrown;
+    border-radius: 0;
+    border: none;
+    /* border-bottom: 1px solid darkcyan; */
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    height: auto;
+    height: 80px;
+}
+
+.navbar-brand h1 { /*brand name*/
+    font-family: 'Playball', cursive;
+    color: blue;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px lightpink;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    line-height: .75;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(104, 30, 173);
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid blue;
+    background-color: lightpink;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+#header-nav #collapsable-nav {
+    background-color: darkcyan;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #b10242;
+    font-size: 1.3em;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+#nav-list a:hover {
+    color: #d80250;
+    text-shadow: 2px 2px 2px rgb(73, 222, 233);
+}
+#nav-list a span {
+    font-size: 1.8em;
+  }
+/* END HEADER */
+
+h1#menu {
+    font-family: 'Fugaz One', cursive;
+    margin-bottom: 50px;
+    color: darkgreen;
+}
+
+/* Sections */
+
+.container {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#section1, #section2, #section3 {
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    border: 1.5px solid midnightblue;
+    background-color: lightpink;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#section1 div:nth-child(1), #section2 div:nth-child(1), #section3 div:nth-child(1) {
+    width: 100%;
+    color: purple;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Niconne', cursive;
+}
+
+div h3 {
+    font-weight: bold;
+    font-size: 2.0em;
+}
+
+#section1 div:nth-child(2), #section2 div:nth-child(2), #section3 div:nth-child(2) {
+    text-align: justify;
+    color: maroon;
+    padding: 10px 15px;
+    font-family: 'Courgette', cursive;
+}
+
+@media (min-width: 768px) {
+
+    #header-nav #collapsable-nav {
+        background-color: sandybrown;
+    }
+
+    header {
+        height: 92px;
+        background-color: sandybrown;
+        border-bottom: 1px solid darkcyan;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    #header-nav {
+        border-bottom: 1px solid darkcyan;
+    }
+}
